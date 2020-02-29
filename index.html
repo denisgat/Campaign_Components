@@ -14,11 +14,11 @@
     <!-- header -->
     
     <header class="container-fluid">
-        <div class="position-relative overflow-hidden p-md-4 m-md-3 bg-light rounded-lg border shadow-lg"
+        <div class="position-relative overflow-hidden p-md-4 m-md-3 rounded-lg border shadow-lg"
             style="background-image: url('https://static2.srcdn.com/wordpress/wp-content/uploads/2019/06/SpongeBob-SquarePants-Battle-for-Bikini-Bottom-Salute.jpg'); background-repeat: no-repeat; background-size: cover;">
-            <div class="col-md-5 p-lg-4 my-5 text-align-left">
+            <div class="col-md-5 p-lg-4 my-5">
                 <h1 class="display-4 font-weight-bold text-left text-danger">SPONGE<br>BOB<br>FOR<br>PRESIDENT</h1>
-                <p class="lead font-weight-normal">
+                <p class="lead font-weight-normal text-left">
                     <a class="btn btn-outline-danger btn-primary text-bold text-white" target="_blank" href="https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_(character)">WHO IS THE SPONGE!?</a>
             </div>
         </div>
@@ -30,27 +30,32 @@
     
     <div class="container-fluid">
         <!-- Three columns of text below the carousel -->
-        <div class="row m-5">
-            <div class="offset-1 col-lg-3">
+        <div class="row m-5 mx-auto">
+            <div class="offset-2 col-lg-3 mx-auto ">
                 <img class="bd-placeholder-img rounded-circle border shadow-lg" src="img/sandy.jpeg" width="300" height="300">
                 </img>
-                <h2 class="text-align-left"> Sandy</h2>
-                <p class="text-align-left">"SMARTEST SPONGE I KNOW I'M STILL THE SMARTEST IN THE SEA OF COURSE"</p>
+                <h2> Sandy</h2>
+                <blockquote class="blockquote">
+                    <p>"SPONGEBOB'S THE SMARTEST SPONGE I KNOW! I'M STILL THE SMARTEST IN THE SEA OF COURSE"</p>
+                </blockquote>
                 <p><a class="btn btn-secondary" href="https://spongebob.fandom.com/wiki/Sandy_Cheeks" target="_blank" role="button">View Profile &raquo;</a></p>
             </div>
-            <div class="offset-1 col-lg-3">
-                <img class="bd-placeholder-img rounded-circle border shadow-lg" src="img/Patrick_Star.png" target="_blank" width="=300" height="300">
+            <div class="offset-1 col-lg-3 mx-auto">
+                <img class="bd-placeholder-img rounded-circle border shadow-lg mx-auto" src="img/Patrick_Star.png" target="_blank" width="=300" height="300">
                 </img>
                 <h2>Patrick</h2>
-                <p>"UHHHHH...I LIVE IN A ROCK! SPONGEBOB IS MY FRIEND"</p>
+                <blockquote class="blockquote">
+                    <p>"UHHHHH...I LIVE IN A ROCK! SPONGEBOB IS MY FRIEND"</p>
+                </blockquote>
+                
                 <p><a class="btn btn-secondary" href="https://spongebob.fandom.com/wiki/Patrick_Star" target="_blank" role="button">View Profile &raquo;</a></p>
             </div>
-            <div class="offset-1 col-lg-3">
-                <img class="bd-placeholder-img rounded-circle border shadow-lg" src="img/krabby.webp" width="300" height="300">
+            <div class="offset-1 col-lg-3 mx-auto">
+                <img class="bd-placeholder-img rounded-circle border shadow-lg mx-auto" src="img/krabby.webp" width="300" height="300">
                 </img>
                 </svg>
                 <h2>Mr.Krabs</h2>
-                <p>"HE MAKES ME MONEYYYYY"</p>
+                <blockquote class="blockquote"><p>"HE MAKES ME MONEYYYYY"</p></blockquote>
                 <p><a class="btn btn-secondary" href="https://spongebob.fandom.com/wiki/Eugene_H._Krabs" target="_blank" role="button">View Profile &raquo;</a></p>
             </div>
         </div>
@@ -58,13 +63,13 @@
     <!-- carousel -->
 
     <div class="container-fluid">
-        <div id="myCarousel" class="carousel slide bg-dark m-3 pt-3 text-primary rounded-lg border shadow-lg" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide overflow-auto bg-dark m-3 pt-3 text-primary rounded-lg border shadow-lg" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner mx-auto d-fluid">
                 <div class="carousel-item active">
                     <div class="offset-1 col-sm-4">
                         <img class="rounded-lg border" src="./img/captian600.jpg" alt="Captain Sponge" width="500" height="500">
@@ -128,7 +133,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="offset-1 col-md-4">
-                        <img class="rounded-lg border" src="./img/vote-sponge.jpg" alt="Captain Sponge" width="500" height="484">
+                        <img class="rounded-lg border border-warning" src="./img/vote-sponge.jpg" alt="Captain Sponge" width="500" height="484">
                     </div>
                     <div class="offset-5 col-md-7 p-4">
                         <div class="container">
@@ -216,9 +221,9 @@
 
     <!-- form and Map -->
 
-    <div class="container">
-        <div class="row mb-5 mt-5 h-25">
-            <div class="col-5 bg-dark p-3 text-white rounded-lg border shadow-lg">
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5 mx-auto d-fluid">
+            <div class=" mx-auto offset-1 col-sm-4 bg-dark p-3 text-white rounded-lg border shadow-lg">
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -272,9 +277,9 @@
                 </form>
 
             </div>
-            <div class="offset-2 col-5 p-1 bg-dark rounded-lg border shadow-lg">
+            <div class=" mx-auto mt-5 overflow-auto offset-2 col-sm-4 p-1 bg-dark rounded-lg border shadow-lg">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64947596.16670851!2d174.32762504496426!3d6.510712091876918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76ed042c30f318eb%3A0x8eff14a070876cbc!2sPacific%20Ocean!5e0!3m2!1sen!2sus!4v1582839249448!5m2!1sen!2sus" 
-                width="465" height="520" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                width="590" height="530" frameborder="1" style="border:1;" allowfullscreen=""></iframe>
             </div>
 
         </div>
